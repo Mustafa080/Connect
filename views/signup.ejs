@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Connect</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="/stylesheets/util.css">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/login.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet"
+        type="text/css">
+
+</head>
+
+<body style="background-image: url('/images/signup-background.jpg')">
+
+
+
+    <div class="limiter">
+        <div class="container-login100">
+            <div class="wrap-login100 p-l-55 p-r-55 p-t-30 p-b-10 m-t-47 m-b-10">
+                <form class="login100-form validate-form" method="POST" action="/auth/signup">
+                    <span class="login100-form-title p-b-25">
+                        Sign Up
+                    </span>
+
+                    <div class="wrap-input100 validate-input m-b-17" data-validate="Username is reauired">
+                        <span class="label-input100">Username</span>
+                        <input class="input100" type="text" name="username" placeholder="Type your username">
+                        <span class="focus-input100" data-symbol="&#xf206;"></span>
+                    </div>
+
+                    <div class="wrap-input100 validate-input" data-validate="Password is required">
+                        <span class="label-input100">Password</span>
+                        <input class="input100" type="password" name="password" placeholder="Type your password">
+                        <span class="focus-input100" data-symbol="&#xf190;"></span>
+                    </div>
+
+                    <div class="wrap-input100 validate-input m-b-17" data-validate="Email is reauired">
+                        <span class="label-input100">Email</span>
+                        <input class="input100" type="email" name="email" placeholder="Type your E-mail">
+                        <span class="focus-input100" data-symbol="&#xf206;"></span>
+                    </div>
+
+                    <div class="wrap-input100 validate-input m-b-17" data-validate="Mobile No is reauired">
+                        <span class="label-input100">Mobile No</span>
+                        <input class="input100" type="tel" name="mobile" placeholder="Type your Mobile No">
+                        <span class="focus-input100" data-symbol="&#xf206;"></span>
+                    </div>
+
+                    <div class="container-form-btn m-b-10">
+                        <div class="wrap-form-btn">
+                            <div class="form-bgbtn"></div>
+                            <button class="form-btn">
+                                Sign Up
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="container-form-btn">
+                        <div class="wrap-form-btn">
+                            <div class="form-bgbtn"></div>
+                            <button class="form-btn">
+                                <a href="login" style="color: white;">Login Instead</a>
+                            </button>
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
